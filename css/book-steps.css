@@ -1,0 +1,49 @@
+.book-steps {
+  display: flex;
+  flex-flow:column nowrap;
+  justify-content: flex-start;
+  width: 511px;
+  height: 492px;
+}
+
+.step-list {
+  width: 395px;
+  height: 289px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.step {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: space-between;
+}
+
+.step__icon {
+  width: 47px;
+  height: 48px;
+  margin-top: 5px;
+}
+
+.step__icon_square {
+  background-image: url("../assets/images/svg/square.svg");
+}
+
+.step__icon_swimmer {
+  background-image: url("../assets/images/svg/swimmer.svg");
+}
+
+.step__icon_car {
+  background-image: url("../assets/images/svg/car.svg");
+}
+
+.step-description {
+  width: 327px;
+  height: 64px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 20px;
+}

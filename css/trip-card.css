@@ -1,0 +1,96 @@
+.trip-card {
+  width: 370px;
+  height: 400px;
+  background-color: white;
+  border-radius: 26px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card__image {
+  width: 321px;
+  height: 161px;
+  background-image: url("../assets/images/png/trip-card.png");
+}
+
+.trip-card__icon-buttons {
+  display: flex;
+  align-self: flex-start;
+  column-gap: 20px;
+  margin-top: 20px;
+}
+
+.icon-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 200ms ease-out;
+}
+
+.icon-button:hover {
+  background-color: lightgray;
+}
+
+.icon-button:after {
+  content: '';
+  width: 14px;
+  height: 14px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-button_leaf:after {
+  background-image: url("../assets/images/svg/leaf.svg");
+}
+
+.icon-button_map:after {
+  background-image: url("../assets/images/svg/map.svg");
+}
+
+.icon-button_plane:after {
+  background-image: url("../assets/images/svg/plane.svg");
+}
+
+.trip-card__content-footer {
+  padding-top: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.icon {}
+
+.icon_house {
+  width: 16px;
+  height: 16px;
+  background-image: url("../assets/images/svg/house.svg");
+  justify-content: start;
+}
+
+.trip-card__footer-medium-text {
+  margin-left: 10px;
+}
+
+.trip-card__medium-text-header {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  color: #080809;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.icon_heart {
+  width: 50%;
+  height: 20px;
+  background-image: url("../assets/images/svg/heart.svg");
+  display: block;
+  background-repeat: no-repeat;
+  background-position: right;
+}

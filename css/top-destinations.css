@@ -1,0 +1,38 @@
+.top-destinations {
+  width: 1102px;
+  height: 617px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-destinations__subheader {
+  text-align: center;
+}
+
+.top-destinations__header {
+  text-align: center;
+}
+
+.card-list {
+  width: 1032px;
+  height: 457px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  z-index: 1;
+  margin-left: 5px;
+}
+
+.card-list__city-card {
+  margin-left: 20px;
+}
+
+.decor {
+  position: absolute;
+  width: 98px;
+  height: 254px;
+  background-image: url("../assets/images/svg/decor.svg");
+  margin-top: 307px;
+  margin-left: 1005px;
+}

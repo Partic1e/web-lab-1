@@ -1,0 +1,108 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/fonts/Poppins-Medium.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/fonts/Poppins-SemiBold.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/fonts/Poppins-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Volkhov;
+  src: url("../assets/fonts/Volkhov-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.block-header-text {
+  font-family: Volkhov, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  color: #14183E;
+}
+
+.block-subheader-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  color: #5E6282;
+}
+
+.city-card-description-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  color: #5E6282;
+}
+
+.city-card-description-text_date {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  color: #5E6282;
+}
+
+.regular-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5E6282;
+  line-height: 24px;
+}
+
+.regular-text_bold {
+  font-weight: bold;
+}
+
+.medium-text {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  color: #84829A;
+}
+
+.medium-text_header {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  color: #080809;
+}
+
+.medium-text_subheader {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #84829A;
+}
+
+.medium-text_progress-bar-base {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: black;
+}
+
+.medium-text_progress-bar-accent {
+  color: #7877C6;
+}
